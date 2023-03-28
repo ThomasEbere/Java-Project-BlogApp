@@ -1,0 +1,7 @@
+const createdata=document.querySelector('.create');
+const blogdiv=document.querySelector('.blogdiv');
+
+createdata.addEventListener('submit', e =>{
+e.preventDefault();
+blogdiv.style.setProperty('display','none');
+});

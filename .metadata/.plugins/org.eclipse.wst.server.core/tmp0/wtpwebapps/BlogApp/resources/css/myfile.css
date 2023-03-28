@@ -1,0 +1,385 @@
+
+
+
+h1{
+	color:#696969;
+	margin-left:40%;
+}
+
+.createblog{
+	background-color:red;
+}
+
+/* .blogdiv
+{
+	background-color:#f2f2f2;
+	border-radius:5px;
+	width:50%;
+	margin:40px auto;
+	height:700px;
+	padding:20px;
+} */
+
+input[type=text]{
+  width: 55%;
+  padding: 12px 0;
+  margin-top: 4%;
+  margin-left:30%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position:absolute
+}
+
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 0;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:block;
+}
+
+.text-area
+{
+	width:50%;
+	height:300px;
+	margin-left:25%;
+}
+
+.success{
+	display:none;
+}
+
+.blogdetails h2
+{
+	text-align:center;
+}
+
+
+.blogdetails
+{
+	width:80%;
+	height:600px;
+	margin:0px auto;
+}
+
+.showallblogs{
+	background-color:#92A1B3;
+	min-height:100%;
+	position: relative;
+}
+
+.card{
+	display: inline-block;
+	background-color: white;
+	left:2%;
+	margin:10px 10px;
+	top:5%;
+}
+
+.blogcontainer
+{
+	position: absolute;
+	width:100%;
+	height:auto;
+	background-color:#FFEBB7;
+}
+.blog-innercontainer{
+	position:relative;
+	width:90%;
+	height: auto;
+	left:8%;
+	margin-top: 3%;
+	margin-bottom:6%;
+}
+
+
+.blogDate
+{
+	position:absolute;
+	left:60%;
+	top:77%;
+}
+
+.w-25
+{
+	width:20%!important;
+}
+
+.card-text{
+	text-overflow: ellipsis;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.blogpage
+{
+	background-color:#594D5B;
+	height: 100%;
+}
+
+.blogitem
+{
+	margin:10px auto;
+	width:60%;
+	height:600px;
+	background-color:grey;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+.blogone{
+	width:70%;
+	height:400px;
+	background-color: red;
+	position: relative;
+	left: 15%;
+	top: 5%;
+}
+
+.datepub{
+	position: absolute;
+	top: 92%;
+	left:55%;
+	color: navy;
+	font-family: Verdana;
+	font-size: 20px;
+}
+.blogpage h5{
+	text-align: center;
+	color: green;
+	margin-top: 2%;
+	font-family: Verdana;
+	font-size: 20px;
+}
+.mylike{
+	display:none;
+}
+
+.bg-custom{
+	background-color: #243763;
+}
+
+
+.navbar-nav .nav-link{
+	color: white !important;
+}
+
+.container-fluid .navbar-brand{
+	color:white;
+}
+
+header{
+	background-color:#FF6E31;
+	height:70px;
+	text-align:center;
+	padding:20px;
+	
+}
+
+.homepage{
+	width:100%;
+	height:630px;
+	background-color:#FFEBB7;
+}
+
+.homepage h1{
+	position:absolute;
+	top:40%;
+	right:40%;
+	font-family:cursive;
+	font-size:35px;
+	display:inline-block;
+	color:#00435b;
+}
+.index-footer
+{
+	background:black;
+	text-align:center;	
+	padding:15px;
+	color:#DFCAA0;
+	width:100%;
+	height: 80px;
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+}
+
+/* .showallblogs .index-footer{
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+} */
+
+.loginpage{
+	width: 100%;
+	position: absolute;
+	top:120px;
+	bottom: 80px;
+	background-color: #FFEBB7;
+}
+
+.logindiv{
+	position: absolute;
+	left: 25%;
+	top:10%;
+	width: 50%;
+	height: 400px;
+	background-color: #92A1B3;
+}
+
+.emailinput{
+	position: relative;
+	top: 15%;
+	left:10%;
+	width: 80%;
+	height:90px;
+}
+
+label{
+	display: inline;
+}
+
+
+.emailinput label{
+	display: inline;
+	position: absolute;
+	top: 41%;
+	margin-left: 12%;
+}
+
+
+
+.passwordinput{
+	position: absolute;
+	top: 45%;
+	left:10%;
+	width: 80%;
+	height:70px;
+}
+
+.passwordinput .mypass{
+	width: 55%;
+  padding: 14px 0;
+  margin-top: 8px;
+  margin-left:31%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+  position: absolute;
+}
+
+.passwordinput label{
+	display: inline;
+	position: absolute;
+	top: 38%;
+	margin-left: 10%;
+}
+
+.passwordinput .eye
+{
+	display: inline;
+	position: absolute;
+	left: 90%;
+	top:40%;
+}
+
+.mylogin-button{
+	position: absolute;
+	top:57%;
+	left:50%;
+}
+
+.signup
+{
+	position: absolute;
+	width: 50%;
+	height: 500px;
+	top: 10%;
+	left: 25%;
+	background-color: red;
+}
+
+.signup h3{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.signup input{
+	width: 70%;
+	margin-left: 24%;
+}
+.firstname{
+
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top:10%;
+}
+
+.firstname label{
+	position: absolute;
+	top: 72%;
+}
+
+.lastName{
+
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top:30%;
+}
+.lastName label{
+	position: absolute;
+	top: 72%;
+}
+.email{
+
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top:50%;
+}
+
+.email label{
+	position: absolute;
+	top: 72%;
+}
+
+.password{
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top:75%;
+}
+
+.password .signpass{
+	padding: 12px 0;
+	margin-left: 11%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	width: 70%;
+}
+
+.reg{
+	position: absolute;
+	left:50%;
+	top:90%;
+}

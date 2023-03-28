@@ -1,0 +1,9 @@
+127.0.0.1 - - [20/Mar/2023:15:10:07 -0400] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:08 -0400] "GET /BlogApp/ HTTP/1.1" 200 260
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:08 -0400] "GET /BlogApp/resources/css/myfile.css HTTP/1.1" 200 1364
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:08 -0400] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:08 -0400] "GET /apple-touch-icon.png HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:09 -0400] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:14 -0400] "GET /BlogApp/createblog HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:10:14 -0400] "GET /BlogApp/userlogin HTTP/1.1" 200 596
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:15:11:10 -0400] "POST /BlogApp/getuser HTTP/1.1" 200 181

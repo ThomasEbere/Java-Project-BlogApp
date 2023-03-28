@@ -1,0 +1,26 @@
+package blogController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import blogApplication.BlogClass;
+
+@Controller
+public class BlogController {
+	
+	@RequestMapping("/")
+	public String indexPage()
+	{
+		return "index";
+	}
+	
+	@RequestMapping("/createblog")
+	public String createBlog(@ModelAttribute("blogApp") BlogClass blogs)
+	{
+		//System.out.println(blogs.getBlogArthur());
+		System.out.println(blogs.getBlogTitle());
+		return "createblog";
+	}
+
+}

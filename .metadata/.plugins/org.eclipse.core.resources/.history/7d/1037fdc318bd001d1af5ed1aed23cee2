@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Data Page</h1>
+	
+	
+	
+  <%
+        String test = "<b><u>bold and underlined</u></b>";
+        pageContext.setAttribute("test", test);
+     %>
+
+    <c:set var="test1" value="<u>underlined</u>" />
+    <c:set var="test2" value="${test}" />
+
+    <c:out value="${test}" escapeXml="false" />
+    <c:out value="${test1}" escapeXml="false" />
+    <c:out value="${test2}" escapeXml="false" />
+
+<c:if test="${empty blogs}">
+	blogs is empty or null.
+</c:if>
+<c:if test="${not empty blogs}">
+   blogs is NOT empty or null.
+</c:if>
+<c:forEach var="blog" items="${blogs}">
+		<tr>
+			<td>${blog.blogTitle }</td>
+			<td>${blog.blogArthur }</td>
+			<td>${blog.blogContent }</td>
+		</tr>
+	</c:forEach>
+</body>
+</html>
