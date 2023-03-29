@@ -4098,3 +4098,300 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javax:javaee-
 2023-03-28 13:21:48,472 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
 2023-03-28 13:21:48,475 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-03-28 13:21:48,475 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-28 15:33:05,646 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-28 15:33:05,649 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-28 15:33:05,651 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-28 15:33:05,652 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:01:12,394 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-29 09:01:23,353 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:01:23,355 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:01:23,358 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:01:23,358 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:32:36,615 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:32:36,617 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:32:36,619 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:32:36,619 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:33:25,421 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:33:25,422 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:33:25,424 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:33:25,424 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:37:48,789 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:37:48,791 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:37:48,794 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:37:48,794 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:44:16,822 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:44:16,823 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:44:16,826 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:44:16,826 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:45:28,751 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:45:28,752 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:45:28,754 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:45:28,754 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:46:19,397 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:46:19,398 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:46:19,400 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:46:19,400 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:48:27,431 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:48:27,432 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:48:27,434 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:48:27,434 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:49:15,484 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:49:15,484 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:49:15,486 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:49:15,486 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:50:53,735 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:50:53,737 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:50:53,739 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:50:53,739 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:54:07,949 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:54:07,950 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:54:07,953 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:54:07,953 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:56:19,803 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:56:19,803 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:56:19,805 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:56:19,805 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:57:30,886 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:57:30,886 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:57:30,889 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:57:30,889 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:58:11,779 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:58:11,779 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:58:11,780 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:58:11,781 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:58:46,683 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:58:46,688 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:58:46,691 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:58:46,691 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 09:59:30,307 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:59:30,308 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 09:59:30,309 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 09:59:30,309 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:01:48,807 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:01:48,808 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:01:48,810 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:01:48,810 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:02:04,198 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:02:04,199 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:02:04,201 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:02:04,201 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:04:49,305 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:04:49,306 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:04:49,308 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:04:49,308 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:06:37,330 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:06:37,332 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:06:37,334 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:06:37,334 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:07:31,198 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:07:31,199 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:07:31,201 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:07:31,201 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:08:57,867 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:08:57,868 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:08:57,869 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:08:57,870 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:09:42,581 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:09:42,582 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:09:42,585 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:09:42,585 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:10:56,363 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:10:56,364 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:10:56,366 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:10:56,366 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:12:03,760 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:12:03,762 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:12:03,763 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:12:03,763 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:12:37,397 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:12:37,397 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:12:37,399 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:12:37,399 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:14:46,183 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:14:46,184 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:14:46,186 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:14:46,186 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:15:47,790 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:15:47,791 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:15:47,793 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:15:47,793 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:17:20,059 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:17:20,061 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:17:20,063 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:17:20,063 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:20:03,934 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:20:03,935 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:20:03,937 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:20:03,937 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:20:53,960 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:20:53,961 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:20:53,963 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:20:53,963 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:22:04,370 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:22:04,371 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:22:04,373 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:22:04,374 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:23:41,470 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:23:41,472 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:23:41,475 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:23:41,475 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:24:33,140 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:24:33,141 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:24:33,143 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:24:33,143 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:25:03,354 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:25:03,354 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:25:03,355 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:25:03,355 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:27:44,336 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:27:44,338 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:27:44,340 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:27:44,341 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:28:09,604 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:28:09,605 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:28:09,607 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:28:09,607 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:30:22,197 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:30:22,198 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:30:22,200 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:30:22,200 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:31:49,293 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:31:49,295 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:31:49,297 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:31:49,297 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:33:46,787 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:33:46,789 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:33:46,791 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:33:46,791 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:36:10,642 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:36:10,644 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:36:10,646 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:36:10,646 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:37:09,176 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:37:09,178 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:37:09,181 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:37:09,181 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:38:05,203 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:38:05,204 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:38:05,212 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:38:05,212 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:40:53,131 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:40:53,132 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:40:53,134 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:40:53,134 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:42:46,311 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:42:46,312 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:42:46,313 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:42:46,313 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:44:34,832 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:44:34,834 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:44:34,836 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:44:34,837 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:46:05,131 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:46:05,132 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:46:05,134 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:46:05,134 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:51:06,938 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:51:06,940 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:51:06,942 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:51:06,942 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:54:47,487 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:54:47,489 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:54:47,493 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:54:47,493 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 10:59:13,573 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:59:13,574 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 10:59:13,577 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 10:59:13,577 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:00:15,769 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:00:15,769 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:00:15,771 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:00:15,771 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:02:18,327 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:02:18,328 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:02:18,331 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:02:18,331 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:02:29,217 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:02:29,218 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:02:29,220 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:02:29,220 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:03:01,972 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:03:01,973 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:03:01,976 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:03:01,976 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:06:21,860 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:06:21,862 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:06:21,864 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:06:21,865 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:08:30,056 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:08:30,056 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:08:30,058 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:08:30,058 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:11:11,777 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:11:11,780 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:11:11,782 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:11:11,783 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:11:36,676 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:11:36,677 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:11:36,680 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:11:36,680 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:12:29,882 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:12:29,886 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:12:29,888 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:12:29,888 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:13:21,225 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:13:21,226 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:13:21,230 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:13:21,230 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:13:31,060 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:13:31,060 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:13:31,062 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:13:31,063 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:15:35,606 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:15:35,607 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:15:35,609 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:15:35,609 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:16:25,506 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:16:25,507 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:16:25,509 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:16:25,509 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:18:37,523 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:18:37,524 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:18:37,545 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:18:37,545 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:19:40,907 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:19:40,908 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:19:40,910 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:19:40,910 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:22:20,233 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:22:20,235 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:22:20,237 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:22:20,237 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:23:11,309 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:23:11,311 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:23:11,313 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:23:11,313 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:26:29,355 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:26:29,356 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:26:29,357 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:26:29,357 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:26:53,653 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:26:53,654 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:26:53,657 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:26:53,657 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:29:21,978 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:29:21,979 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:29:21,981 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:29:21,981 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:30:04,124 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:30:04,125 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:30:04,127 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:30:04,127 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:30:40,520 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:30:40,521 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:30:40,523 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:30:40,523 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources
+2023-03-29 11:31:15,925 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:31:15,926 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/main/resources
+2023-03-29 11:31:15,929 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-29 11:31:15,929 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/eberechukwukathomas/Documents/Java-files/BlogApp/BlogApp/src/test/resources

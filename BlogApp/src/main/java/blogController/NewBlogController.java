@@ -74,12 +74,17 @@ public class NewBlogController {
 	@RequestMapping("/viewblog")
 	public String getUserBlogs(Model model, HttpSession session) throws ClassNotFoundException, SQLException
 	{
-		String BlogArthur= (String) session.getAttribute("FirstName");
+		if(session.getAttribute("FirstName")!=null) {
+			String BlogArthur= (String) session.getAttribute("FirstName");
+			
+			List<BlogClass>blogs=dataConnection.getLatestBlog(BlogArthur);
+			BlogClass singleBlog=blogs.get(blogs.size()-1);
+			model.addAttribute("blogs", singleBlog);
+			return "viewPersonalBlog";
+		}
 		
-		List<BlogClass>blogs=dataConnection.getLatestBlog(BlogArthur);
-		BlogClass singleBlog=blogs.get(blogs.size()-1);
-		model.addAttribute("blogs", singleBlog);
-		return "viewPersonalBlog";
+		return "redirect:/userlogin";
+		
 	}
 	
 	@RequestMapping("/editblog")
