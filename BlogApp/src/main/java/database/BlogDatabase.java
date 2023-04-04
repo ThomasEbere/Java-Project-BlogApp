@@ -21,7 +21,7 @@ public class BlogDatabase {
 		
 		Class.forName(myDriver);
 		
-		Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/Blog","root", "Prick123$");
+		Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/Blog","root","");
 		return conn;
 	}
 	

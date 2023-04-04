@@ -49,11 +49,11 @@ input[type=submit] {
 
 .text-area
 {
-	width:50%;
-	height:300px;
+	width:30%;
+	height:200px;
 	margin-left:15%;
 	position:absolute;
-	top:46%;
+	top:47%;
 }
 
 .success{
@@ -68,28 +68,35 @@ input[type=submit] {
 
 .blogdetails
 {
-	width:80%;
-	height:600px;
+	width:60%;
+	height:450px;
 	margin:0px auto;
 	background-color: grey;
 }
 
 .blogdetails .creatinput2{
-	width:50%;
+	width:30%;
 	margin-left: 15%;
 	top:31%;
 }
 
 .blogdetails .creatinput1{
-	width:50%;
+	width:30%;
 	margin-left: 15%;
 	top:23%;
 }
-.createblogbutton
+.blogdetails .createblogbutton
 {
+	width:20%;
 position: absolute;
-top:86%;
-left: 35%;
+top:75%;
+left: 40%;
+}
+
+.createpage{
+	text-align: center;
+	font-family: cursive;
+	color:#243763 ;
 }
 .blogdetails .titlelabel
 {
@@ -187,7 +194,7 @@ left: 35%;
 
 .datepub{
 	position: absolute;
-	top: 92%;
+	top: 85%;
 	left:55%;
 	color: navy;
 	font-family: Verdana;
@@ -452,4 +459,106 @@ margin-top: 10%;
 	top:90%;
 	margin-left: 35%;
 	background-color: red;
+}
+
+.welcome
+{
+	background-color: #FFEBB7;
+	position: absolute;
+	top:126px;
+	bottom: 80px;
+	width: 100%;
+}
+
+.welcome h2{
+	font-family: cursive;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.innerwelcome{
+	position: relative;
+	top: 15%;
+	left: 25%;
+	width: 50%;
+	height: 200px;
+}
+
+.innerwelcome div{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 8%;
+}
+
+.innerwelcome button{
+	padding: 20px 20px;
+	font-family:'Lucida Sans';
+	background-color: #FF6E31;
+}
+
+.newitems{
+	position:absolute;
+	width: 100%;
+	top: 126px;
+	bottom: 80px;
+	background-color: #FFEBB7;
+}
+
+.myitems{
+	position: relative;
+	width: 50%;
+	height: 400px;
+	left: 25%;
+	background-color: #FF6E31;
+	top:10%;
+}
+
+.myitems h5{
+	padding: 10px 20px;
+	text-align: center;
+	color: #243763;
+	font-family:'Trattatello' ;
+}
+
+.myitems h4{
+	padding: 0 20px;
+	text-align: center;
+	color: #243763;
+	font-family:'Brush Script MT ' ;
+}
+
+.mywelcome{
+	position: relative;
+	top: 15%;
+	left: 40%;
+	width: 25%;
+	height: 100px;
+}
+
+.mywelcome div{
+	display: inline-block;
+	margin-top: 15px;
+	/* margin-left: 15%; */
+}
+
+.mywelcome button{
+	padding: 20px 20px;
+	font-family:'Lucida Sans';
+	background-color: #FF6E31;
+}
+
+.welcome h1{
+	font-family: cursive;
+	margin-top: 3%;
+	color: #243763;
+}
+
+.myitems div{
+	position: relative;
+	width: 30%;
+	height: 200px;
+	font-family: Verdana;
+	left: 36%;
+	top:5%;
 }

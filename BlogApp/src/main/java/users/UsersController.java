@@ -34,12 +34,15 @@ public class UsersController {
 	public String createUser(@ModelAttribute("user") Users user, BindingResult result) throws ClassNotFoundException, SQLException
 	{
 		connection.createUser(user);
-		return "return:/userlogin";
+		return "redirect:/userlogin";
 	}
 	
 	@RequestMapping("/userlogin")
-	public String login(@ModelAttribute("user") Users user, BindingResult result, Model model, String createBlog) throws ClassNotFoundException, SQLException
+	public String login(@ModelAttribute("user") Users user, BindingResult result, Model model, String createBlog, HttpSession session) throws ClassNotFoundException, SQLException
 	{
+		if(session.getAttribute("FirstName")!=null) {
+			return "welcome";
+		}
 		String data=(String) model.asMap().get("mapping1Form");
 		model.addAttribute("data", data);
 		return "loginPage";

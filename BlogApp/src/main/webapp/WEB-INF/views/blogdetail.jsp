@@ -57,5 +57,8 @@
     <a href="createblog">Write your own blog</a>
 	</c:forEach>
 		<script type="text/javascript" src="/BlogApp/resources/Js/app.js?203" defer="defer"></script>
+		<footer class="index-footer">
+   <p>CopyRight 2023</p>
+   </footer>
 	</body>
 </html>
