@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="UTF-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<link href="/resources/css/myfile.css"
-    rel="stylesheet">
+<!-- <link href="/resources/css/myfile.css"
+    rel="stylesheet"> -->
 <title>Insert title here</title>
 </head>
 <body class="blogpage">
@@ -26,10 +26,10 @@
    
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="/BlogApp">Home</a>
-        <a class="nav-link" href="showallblog">Read a blog</a>
-        <a class="nav-link" href="createblog">Write your First Blog</a>
-        <a class="nav-link" href="userlogin">Login</a>
-        <a class="nav-link" href="users">SignUp</a>
+        <a class="nav-link" href="/BlogApp/showallblog">Read a blog</a>
+        <a class="nav-link" href="/BlogApp/createblog">Write your First Blog</a>
+        <a class="nav-link" href="/BlogApp/userlogin">Login</a>
+        <a class="nav-link" href="/BlogApp/users">SignUp</a>
       </div>
     </div>
   </div>
@@ -47,16 +47,19 @@
    <div class="blogone"><p>${blog.blogContent }</p></div>
     <p class="datepub"> Date published: ${blog.blogDate }</p>
     <%-- ${blog.blogid } --%>
-	<!--  <button class='btn btn-primary disabled'>
-	    <i class="fa fa-thumbs-up added " style="font-size:24px"></i>
-	</button> -->
+    
+	<a href ="/BlogApp/like${blog.blogid}"><button class='btn btn-primary'>
+	    <i class="fa fa-thumbs-up added " min=1 style="font-size:24px"></i>
+	</button></a> ${blog.blogLikeCount }
 	
 	<span class="mylike">${blog.blogLikeCount}</span>  
 	</div>
     <a href="showallblog">Go back to blog page</a>
     <a href="createblog">Write your own blog</a>
 	</c:forEach>
-		<script type="text/javascript" src="/BlogApp/resources/Js/app.js?203" defer="defer"></script>
+		<script type="text/javascript" src="/BlogApp/resources/Js/app.js?203" defer="defer">
+		
+		</script>
 		<footer class="index-footer">
    <p>CopyRight 2023</p>
    </footer>

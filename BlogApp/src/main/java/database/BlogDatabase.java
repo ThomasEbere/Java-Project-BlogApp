@@ -203,5 +203,19 @@ public class BlogDatabase {
 		preparestatement.executeUpdate();		
 	}
 	
+	public int updateBlogLike(int newLike, int id) throws ClassNotFoundException, SQLException
+	{
+		int result=0;
+		String updateLikeRecords= "Update blog set blogLikeCount=? where Trim(id=?)";
+
+		
+		PreparedStatement preparestatement=database().prepareStatement(updateLikeRecords);
+		
+		preparestatement.setInt(1, newLike);
+		preparestatement.setInt(2, id);
+		preparestatement.executeUpdate();
+		return result;
+	}
+	
 	
 }
