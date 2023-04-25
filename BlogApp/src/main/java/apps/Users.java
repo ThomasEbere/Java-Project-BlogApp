@@ -7,6 +7,7 @@ import java.util.Date;
 
 public class Users {
 	
+	
 	private String FirstName;
 	
 	private String LastName;
@@ -15,6 +16,8 @@ public class Users {
 	private String Password;
     
 	private String email;
+	
+	private int useruuid;
 
 	
 	public String getFirstName() {
@@ -40,6 +43,13 @@ public class Users {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	public int getUseruuid() {
+		return useruuid;
+	}
+	public void setUseruuid(int useruuid) {
+		this.useruuid = useruuid;
 	}
 	
 }

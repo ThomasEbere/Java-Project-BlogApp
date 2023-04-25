@@ -12,7 +12,7 @@ public class RandomNo {
 	{
 		Random rand = new Random(); 
 	       
-        int int_random = rand.nextInt(8999)+1000; 
+        int int_random = rand.nextInt(89999999)+100000000; 
         
         return int_random;
 	}
@@ -21,12 +21,6 @@ public class RandomNo {
     	
     	RandomNo random = new RandomNo();
     	
-    	for(int i=0; i<200;i++)
-    	{
-    		System.out.println(random.randomNo());
-
-    	}
-    	
-        
+//    		System.out.println(random.randomNo());
     }
 }

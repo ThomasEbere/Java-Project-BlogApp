@@ -1,6 +1,8 @@
 package database;
 
+import database.RandomNo;
 import java.sql.Connection;
+
 
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -14,6 +16,8 @@ import apps.BlogClass;
 import apps.Users;
 
 public class BlogDatabase {
+	RandomNo random= new RandomNo();
+
 
 	public Connection database() throws ClassNotFoundException, SQLException
 	{
@@ -29,19 +33,21 @@ public class BlogDatabase {
 	{
 		int result=0;
 		
-		String INSERT_ITEM="INSERT INTO blog(blogTitle,blogArthur, blogContent,blogLikeCount, blogComment,blogDate) value(?,?,?,?,?,?)";
+		String INSERT_ITEM="INSERT INTO blog(bloguuid, blogTitle,blogArthur, blogContent,blogLikeCount, blogComment,blogDate) value(?,?,?,?,?,?,?)";
 		
 		PreparedStatement preparestatement=database().prepareStatement(INSERT_ITEM);
 		
 		java.util.Date date = new java.util.Date();
 		java.sql.Date sqlDate = new Date(date.getTime());
 		
-		preparestatement.setString(1,blog.getBlogTitle());
-		preparestatement.setString(2,blog.getBlogArthur());
-		preparestatement.setString(3, blog.getBlogContent());
-		preparestatement.setInt(4, blog.getBlogLikeCount());
-		preparestatement.setString(5, blog.getBlogComments());
-		preparestatement.setDate(6, sqlDate);
+		
+		preparestatement.setInt(1, random.randomNo() );
+		preparestatement.setString(2,blog.getBlogTitle());
+		preparestatement.setString(3,blog.getBlogArthur());
+		preparestatement.setString(4, blog.getBlogContent());
+		preparestatement.setInt(5, blog.getBlogLikeCount());
+		preparestatement.setString(6, blog.getBlogComments());
+		preparestatement.setDate(7, sqlDate);
 
 
 		result=preparestatement.executeUpdate();
@@ -62,12 +68,13 @@ public class BlogDatabase {
 			BlogClass blog = new BlogClass();
 			
 			blog.setBlogid(rs.getInt(1));
-			blog.setBlogTitle(rs.getString(2));
-			blog.setBlogArthur(rs.getString(3));
-			blog.setBlogContent(rs.getString(4));
-			blog.setBlogLikeCount(rs.getInt(5));
-			blog.setBlogComments(rs.getString(6));
-			blog.setBlogDate(rs.getDate(7));
+			blog.setBlogid(rs.getInt(2));
+			blog.setBlogTitle(rs.getString(3));
+			blog.setBlogArthur(rs.getString(4));
+			blog.setBlogContent(rs.getString(5));
+			blog.setBlogLikeCount(rs.getInt(6));
+			blog.setBlogComments(rs.getString(7));
+			blog.setBlogDate(rs.getDate(8));
 			
 			blogs.add(blog);
 		}
@@ -90,12 +97,13 @@ public class BlogDatabase {
 			BlogClass blog = new BlogClass();
 			
 			blog.setBlogid(rs.getInt(1));
-			blog.setBlogTitle(rs.getString(2));
-			blog.setBlogArthur(rs.getString(3));
-			blog.setBlogContent(rs.getString(4));
-			blog.setBlogLikeCount(rs.getInt(5));
-			blog.setBlogComments(rs.getString(6));
-			blog.setBlogDate(rs.getDate(7));
+			blog.setBloguuid(rs.getInt(2));
+			blog.setBlogTitle(rs.getString(3));
+			blog.setBlogArthur(rs.getString(4));
+			blog.setBlogContent(rs.getString(5));
+			blog.setBlogLikeCount(rs.getInt(6));
+			blog.setBlogComments(rs.getString(7));
+			blog.setBlogDate(rs.getDate(8));
 			
 			blogs.add(blog);
 		}
@@ -107,14 +115,15 @@ public class BlogDatabase {
 	{
 		int result=0;
 		
-		String INSERT_ITEM="INSERT INTO users(firstName, lastName, email, password) value(?,?,?,?)";
+		String INSERT_ITEM="INSERT INTO users(useruuid, firstName, lastName, email, password) value(?,?,?,?,?)";
 		
 		PreparedStatement preparestatement=database().prepareStatement(INSERT_ITEM);
 		
-		preparestatement.setString(1,user.getFirstName());
-		preparestatement.setString(2,user.getLastName());
-		preparestatement.setString(3, user.getEmail());
-		preparestatement.setString(4, user.getPassword());
+		preparestatement.setInt(1,random.randomNo());
+		preparestatement.setString(2,user.getFirstName());
+		preparestatement.setString(3,user.getLastName());
+		preparestatement.setString(4, user.getEmail());
+		preparestatement.setString(5, user.getPassword());
 
 		result=preparestatement.executeUpdate();
 		return result;
@@ -135,10 +144,11 @@ public class BlogDatabase {
 		{
 			Users user = new Users();
 			
-			user.setFirstName(rs.getString(2));
-			user.setLastName(rs.getString(3));
-			user.setEmail(rs.getString(4));
-			user.setPassword(rs.getString(5));
+			user.setUseruuid(rs.getInt(2));
+			user.setFirstName(rs.getString(3));
+			user.setLastName(rs.getString(4));
+			user.setEmail(rs.getString(5));
+			user.setPassword(rs.getString(6));
 			users.add(user);
 		}
 		return users;
@@ -162,6 +172,7 @@ public class BlogDatabase {
 			
 			
 			blogs.setBlogid(rs.getInt(1));
+			blogs.setBloguuid(rs.getInt(2));
 			blogs.setBlogTitle(rs.getString(2));
 			blogs.setBlogArthur(rs.getString(3));
 			blogs.setBlogContent(rs.getString(4));

@@ -147,11 +147,20 @@ public class NewBlogController {
 	public String likeblog(@PathVariable int roll, @ModelAttribute("blog") BlogClass blog, BindingResult result, Model model,HttpSession session,RedirectAttributes redirectAttributes) throws ClassNotFoundException, SQLException
 	{
 		if(session.getAttribute("FirstName")!=null) {
-			int newblogcount=blog.getBlogLikeCount();
-			newblogcount=newblogcount+1;
-			System.out.println(newblogcount);
-			dataConnection.updateBlogLike(newblogcount, roll);
-			System.out.println("Data got here");
+			
+			int newNum=0;
+
+			List<BlogClass>blogs=dataConnection.getarticle(roll);
+			
+			for(BlogClass newblog:blogs) {
+				
+				newNum=newblog.getBlogLikeCount();
+			}
+			System.out.println("The value of New Num");
+			System.out.println(newNum);
+			dataConnection.updateBlogLike(newNum+1, roll);
+			
+//			System.out.println("Data got here");
 			return "redirect:/showblog/"+ roll;
 		}
 			return "redirect:/userlogin";

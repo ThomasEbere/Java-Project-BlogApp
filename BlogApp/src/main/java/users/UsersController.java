@@ -54,8 +54,16 @@ public class UsersController {
 		
 		List<Users> users=connection.getUser(user.getEmail());
 		
+			
 			for(Users userd :users)
 			{
+				System.out.println(userd.getEmail());
+				System.out.println(userd.getPassword());
+				System.out.println(userd.getFirstName());
+				System.out.println(userd.getPassword());
+				System.out.println(userd.getUseruuid());
+
+
 				if(userd.getEmail().equals(user.getEmail()) && userd.getPassword().equals(user.getPassword())) {
 					
 					HttpSession session = request.getSession();

@@ -6,7 +6,9 @@ import java.util.Date;
 public class BlogClass {
 	
 	
+
 	private int blogid;
+	private int bloguuid;
 	private String blogTitle;
 	private String blogArthur;
 	private String blogContent;
@@ -20,7 +22,12 @@ public class BlogClass {
 	public void setBlogid(int bloguid) {
 		this.blogid = bloguid;
 	}
-	
+	public int getBloguuid() {
+		return bloguuid;
+	}
+	public void setBloguuid(int bloguuid) {
+		this.bloguuid = bloguuid;
+	}
 	public String getBlogTitle() {
 		return blogTitle;
 	}
@@ -57,8 +64,6 @@ public class BlogClass {
 	public void setBlogDate(Date blogDate) {
 		this.blogDate = blogDate;
 	}
-	
-	
 	
 
 }
