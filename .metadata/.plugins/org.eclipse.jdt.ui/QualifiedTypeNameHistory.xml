@@ -30,4 +30,5 @@
     <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Email"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="database.RandomNo"/>
 </qualifiedTypeNameHistroy>

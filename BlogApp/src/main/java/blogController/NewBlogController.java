@@ -34,11 +34,19 @@ public class NewBlogController {
 	}
 	
 	@RequestMapping("/createblog")
-	public String createblog(@ModelAttribute("blog") BlogClass blog, BindingResult result, HttpSession session,RedirectAttributes redirectAttributes,String createBlog,Model model)
+	public String createblog(@ModelAttribute("blog") BlogClass blog, BindingResult result, HttpSession session,RedirectAttributes redirectAttributes,String createBlog,Model model) throws ClassNotFoundException, SQLException
 	{
-		
-		if(session.getAttribute("FirstName")!=null) {
-			String title= (String) session.getAttribute("FirstName");
+//		System.out.println("Getting here");
+//		System.out.println(session.getAttribute("userid")!=null);
+//		int userd=0;
+//		userd=(int)session.getAttribute("userid");
+//		System.out.println("This is the userid"+userd);
+//		System.out.println(dataConnection.getFirstName(userd));
+		System.out.println("Got here");
+		if(session.getAttribute("userid")!=null) {
+			int title= (int) session.getAttribute("userid");
+			System.out.println(title);
+			System.out.println(dataConnection.getFirstName(title));
 			model.addAttribute("firstname", title);
 			return "createblog";
 		}
@@ -59,6 +67,7 @@ public class NewBlogController {
 	public String showAllBlogs(Model model) throws ClassNotFoundException, SQLException
 	{
 		List<BlogClass>blogs=dataConnection.getAllItem();
+		
 		model.addAttribute("blogs", blogs);
 		return "blogdetails";
 	}
@@ -74,11 +83,16 @@ public class NewBlogController {
 	@RequestMapping("/viewblog")
 	public String getUserBlogs(Model model, HttpSession session) throws ClassNotFoundException, SQLException
 	{
+		System.out.print("Data got here");
 		if(session.getAttribute("FirstName")!=null) {
 			String BlogArthur= (String) session.getAttribute("FirstName");
+			System.out.println(BlogArthur);
 			
 			List<BlogClass>blogs=dataConnection.getLatestBlog(BlogArthur);
 			BlogClass singleBlog=blogs.get(blogs.size()-1);
+			System.out.println(singleBlog.getBlogArthur());
+			System.out.println(singleBlog.getBlogTitle());
+
 			model.addAttribute("blogs", singleBlog);
 			return "viewPersonalBlog";
 		}
@@ -146,26 +160,46 @@ public class NewBlogController {
 	@RequestMapping("/like{roll}")
 	public String likeblog(@PathVariable int roll, @ModelAttribute("blog") BlogClass blog, BindingResult result, Model model,HttpSession session,RedirectAttributes redirectAttributes) throws ClassNotFoundException, SQLException
 	{
-		if(session.getAttribute("FirstName")!=null) {
+		if(session.getAttribute("userid")!=null) {
 			
+			int userid= (int) session.getAttribute("userid");
 			int newNum=0;
-
-			List<BlogClass>blogs=dataConnection.getarticle(roll);
+			int blogid=0;
 			
-			for(BlogClass newblog:blogs) {
+			if(dataConnection.getblogid(userid).isEmpty()) {
+				System.out.println("Yes it is empty");
+				List<BlogClass>blogs=dataConnection.getarticle(roll);
 				
-				newNum=newblog.getBlogLikeCount();
+				for(BlogClass newblog:blogs) {
+					
+					newNum=newblog.getBlogLikeCount();
+					blogid=newblog.getBloguuid();
+				}
+				dataConnection.updateBlogLike(newNum+1, roll);
+				dataConnection.insertlikes(blogid, userid);
+				return "redirect:/showblog/"+ roll;
+				
 			}
-			System.out.println("The value of New Num");
-			System.out.println(newNum);
-			dataConnection.updateBlogLike(newNum+1, roll);
+			else {
+				
+				System.out.println("It is not empty");
+				List<BlogClass>blogs=dataConnection.getarticle(roll);
+				
+				for(BlogClass newblog:blogs) {
+					
+					newNum=newblog.getBlogLikeCount();
+					blogid=newblog.getBloguuid();
+				}
+				System.out.println("The value of New Num");
+				System.out.println(newNum);
+				System.out.println(blogid);
+				dataConnection.updateBlogLike(newNum-1, roll);
+				dataConnection.deletelike(userid);
+				return "redirect:/showblog/"+ roll;
+				
+			}
+			}
 			
-//			System.out.println("Data got here");
-			return "redirect:/showblog/"+ roll;
-		}
-			return "redirect:/userlogin";
-//		
+			return "redirect:/userlogin";	
 	}
-	
-	
 }

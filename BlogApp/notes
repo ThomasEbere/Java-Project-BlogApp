@@ -1,0 +1,4 @@
+Ensure that firstname is set upon login and create blogs
+Work on the Home page view and the readblog view
+Create view for creating comment
+Create table for comment with comment content and comment ID

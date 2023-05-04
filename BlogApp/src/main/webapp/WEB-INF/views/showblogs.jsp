@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@taglib  uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+        <%@ taglib prefix="mytags" tagdir="/WEB-INF/tags" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,7 @@
 <link href="resources/css/myfile.css?v=4"
     rel="stylesheet">
 <body >
+        <mytags:navbar/>
 <c:forEach var ="blog" items="${blogs}">
 
 </c:forEach>

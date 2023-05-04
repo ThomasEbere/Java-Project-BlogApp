@@ -40,7 +40,7 @@ public class UsersController {
 	@RequestMapping("/userlogin")
 	public String login(@ModelAttribute("user") Users user, BindingResult result, Model model, String createBlog, HttpSession session) throws ClassNotFoundException, SQLException
 	{
-		if(session.getAttribute("FirstName")!=null) {
+		if(session.getAttribute("userid")!=null) {
 			return "welcome";
 		}
 		String data=(String) model.asMap().get("mapping1Form");
@@ -49,7 +49,7 @@ public class UsersController {
 	}
 	
 	@RequestMapping("/getuser")
-	public String getuser(@ModelAttribute("user") Users user, BindingResult result, RedirectAttributes redirectAttributes, HttpServletRequest request) throws ClassNotFoundException, SQLException
+	public String getuser(@ModelAttribute("user") Users user, BindingResult result, RedirectAttributes redirectAttributes, HttpServletRequest request, Model model) throws ClassNotFoundException, SQLException
 	{
 		
 		List<Users> users=connection.getUser(user.getEmail());
@@ -57,19 +57,15 @@ public class UsersController {
 			
 			for(Users userd :users)
 			{
-				System.out.println(userd.getEmail());
-				System.out.println(userd.getPassword());
-				System.out.println(userd.getFirstName());
-				System.out.println(userd.getPassword());
-				System.out.println(userd.getUseruuid());
-
-
 				if(userd.getEmail().equals(user.getEmail()) && userd.getPassword().equals(user.getPassword())) {
 					
 					HttpSession session = request.getSession();
-					session.setAttribute("FirstName", userd.getFirstName());
+//					session.setAttribute("FirstName", userd.getFirstName());
+					session.setAttribute("userid", userd.getUseruuid());
+
 					String name=request.getParameter("data");
 					if(name.isEmpty()) {
+						model.addAttribute("firstname", userd.getFirstName());
 						return "welcome";
 					}
 					return "redirect:/createblog";

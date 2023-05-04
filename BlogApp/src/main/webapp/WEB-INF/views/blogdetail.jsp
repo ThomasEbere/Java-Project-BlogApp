@@ -2,6 +2,8 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+        <%@ taglib prefix="mytags" tagdir="/WEB-INF/tags" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,25 +17,8 @@
 <title>Insert title here</title>
 </head>
 <body class="blogpage">
-<nav class="navbar navbar-expand-lg bg-custom">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/BlogApp">TOMSBLOG</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <a class="navbar-nav ms-auto"></a>
-   
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/BlogApp">Home</a>
-        <a class="nav-link" href="/BlogApp/showallblog">Read a blog</a>
-        <a class="nav-link" href="/BlogApp/createblog">Write your First Blog</a>
-        <a class="nav-link" href="/BlogApp/userlogin">Login</a>
-        <a class="nav-link" href="/BlogApp/users">SignUp</a>
-      </div>
-    </div>
-  </div>
-</nav>
+        <mytags:navbar/>
+
 <header>
 <h2>Changing Lives By Sharing Stories</h2>
 </header>
@@ -43,19 +28,23 @@
 <div class="blogitem">
 
    <h5> BlogName: ${blog.blogTitle }</h5>
-    <h5>Written By: ${blog.blogArthur }</h5>
+    <h4>Written By: ${blog.blogArthur }</h4>
    <div class="blogone"><p>${blog.blogContent }</p></div>
-    <p class="datepub"> Date published: ${blog.blogDate }</p>
+    <p class="datepub"> <b>Date published: ${blog.blogDate }</b></p>
     <%-- ${blog.blogid } --%>
     
+    <div class="forlike">
 	<a href ="/BlogApp/like${blog.blogid}"><button class='btn btn-primary'>
 	    <i class="fa fa-thumbs-up added " min=1 style="font-size:24px"></i>
 	</button></a> ${blog.blogLikeCount }
 	
-	<span class="mylike">${blog.blogLikeCount}</span>  
+	<span class="mylike">${blog.blogLikeCount}</span> 
+	</div> 
 	</div>
-    <a href="showallblog">Go back to blog page</a>
-    <a href="createblog">Write your own blog</a>
+    <div class="blogitemnav">
+  <a href="showallblog"><button>Go back to blog page</button> </a>
+  <a href="createblog"><button>Write your own blog</button></a>
+</div>
 	</c:forEach>
 		<script type="text/javascript" src="/BlogApp/resources/Js/app.js?203" defer="defer">
 		

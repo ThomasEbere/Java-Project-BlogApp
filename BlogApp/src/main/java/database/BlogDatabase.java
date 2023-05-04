@@ -68,7 +68,7 @@ public class BlogDatabase {
 			BlogClass blog = new BlogClass();
 			
 			blog.setBlogid(rs.getInt(1));
-			blog.setBlogid(rs.getInt(2));
+			blog.setBloguuid(rs.getInt(2));
 			blog.setBlogTitle(rs.getString(3));
 			blog.setBlogArthur(rs.getString(4));
 			blog.setBlogContent(rs.getString(5));
@@ -173,12 +173,12 @@ public class BlogDatabase {
 			
 			blogs.setBlogid(rs.getInt(1));
 			blogs.setBloguuid(rs.getInt(2));
-			blogs.setBlogTitle(rs.getString(2));
-			blogs.setBlogArthur(rs.getString(3));
-			blogs.setBlogContent(rs.getString(4));
-			blogs.setBlogLikeCount(rs.getInt(5));
-			blogs.setBlogComments(rs.getString(6));
-			blogs.setBlogDate(rs.getDate(7));
+			blogs.setBlogTitle(rs.getString(3));
+			blogs.setBlogArthur(rs.getString(4));
+			blogs.setBlogContent(rs.getString(5));
+			blogs.setBlogLikeCount(rs.getInt(6));
+			blogs.setBlogComments(rs.getString(7));
+			blogs.setBlogDate(rs.getDate(8));
 			
 			blog.add(blogs);
 		}
@@ -228,5 +228,54 @@ public class BlogDatabase {
 		return result;
 	}
 	
+	public int insertlikes(int blogid,int userid) throws ClassNotFoundException, SQLException
+	{
+		int result=0;
+		
+		String INSERT_ITEM="INSERT INTO likes(bloguuid, useruuid) value(?,?)";
+		
+		PreparedStatement preparestatement=database().prepareStatement(INSERT_ITEM);
+		preparestatement.setInt(1, blogid);
+		preparestatement.setInt(2,userid);
+		result=preparestatement.executeUpdate();
+		return result;
+	}
 	
+	public String getblogid(int userid) throws ClassNotFoundException, SQLException {
+//		List<String> sids = new ArrayList<String>();
+		
+		String getblogids="SELECT * FROM likes where useruuid=?";
+		String sids="";
+		PreparedStatement preparestatement=database().prepareStatement(getblogids);
+		preparestatement.setInt(1,userid);
+		ResultSet rs= preparestatement.executeQuery();
+		while(rs.next()) {
+			  sids=rs.getString(2);
+		}
+		return sids;
+	}
+	
+	public void deletelike(int userid) throws ClassNotFoundException, SQLException 
+	{
+		String deleteItem="DELETE FROM likes WHERE TRIM(useruuid=?)";
+		
+		PreparedStatement preparestatement=database().prepareStatement(deleteItem);
+		
+		preparestatement.setInt(1, userid);
+		preparestatement.executeUpdate();		
+	} 
+	
+	public String getFirstName(int userid) throws ClassNotFoundException, SQLException {
+//		List<String> sids = new ArrayList<String>();
+		
+		String getuserdetails="SELECT * FROM users where useruuid=?";
+		String sids="";
+		PreparedStatement preparestatement=database().prepareStatement(getuserdetails);
+		preparestatement.setInt(1,userid);
+		ResultSet rs= preparestatement.executeQuery();
+		while(rs.next()) {
+			  sids=rs.getString(3);
+		}
+		return sids;
+	}
 }
