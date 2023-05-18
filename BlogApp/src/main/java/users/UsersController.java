@@ -41,6 +41,7 @@ public class UsersController {
 	public String login(@ModelAttribute("user") Users user, BindingResult result, Model model, String createBlog, HttpSession session) throws ClassNotFoundException, SQLException
 	{
 		if(session.getAttribute("userid")!=null) {
+			
 			return "welcome";
 		}
 		String data=(String) model.asMap().get("mapping1Form");

@@ -1,0 +1,617 @@
+
+
+
+h1{
+	color:#696969;
+	margin-left:40%;
+}
+
+.createblog{
+	background-color:red;
+}
+
+/* .blogdiv
+{
+	background-color:#f2f2f2;
+	border-radius:5px;
+	width:50%;
+	margin:40px auto;
+	height:700px;
+	padding:20px;
+} */
+
+input[type=text]{
+  width: 55%;
+  padding: 12px 0;
+  margin-top: 4%;
+  margin-left:30%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position:absolute
+}
+
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 0;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:block;
+}
+
+.text-area
+{
+	width:20%;
+	height:150px;
+	margin:0 5.5%;
+	position:absolute;
+	top:41%;
+}
+
+.success{
+	display:none;
+}
+
+.blogdetails h2
+{
+	text-align:center;
+}
+
+
+.blogdetails
+{
+	width:30%;
+	height:450px;
+	margin:3% auto;
+	background-color: grey;
+}
+
+.blogdetails .creatinput2{
+	width:15%;
+	margin-left: 8%;
+	top:26%;
+	padding:6px 0;
+}
+
+.blogdetails .creatinput1{
+	width:15%;
+	margin-left: 8%;
+	top:19%;
+	padding:6px 0;
+}
+
+.blogdetails .createblogbutton
+{
+	width:10%;
+position: absolute;
+top:59%;
+left: 45%;
+padding: 8px 0;
+}
+
+.createpage{
+	text-align: center;
+	font-family: cursive;
+	color:#243763 ;
+}
+
+.blogdetails .titlelabel
+{
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top:28%;
+	margin-left:1%;
+}
+
+.arthurlabel
+{
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top:35%;
+		margin-left:1%;
+}
+
+.showallblogs{
+	background-color:#92A1B3;
+	min-height:100%;
+	position: relative;
+}
+
+.card{
+	display: inline-block;
+	background-color: white;
+	left:2%;
+	margin:10px 10px;
+	top:5%;
+}
+
+.blogcontainer
+{
+	position: absolute;
+	width:100%;
+	background-color:#FFEBB7;
+	top:126px;
+	bottom:80px;
+}
+.blog-innercontainer{
+	position:relative;
+	width:90%;
+	height: auto;
+	left:1%;
+	margin-top: 3%;
+	margin-bottom:6%;
+}
+
+
+.blogDate
+{
+	position:absolute;
+	left:60%;
+	top:77%;
+}
+
+.w-25
+{
+	width:20%!important;
+}
+
+.card-text{
+	text-overflow: ellipsis;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.blogpage
+{
+	background-color:#594D5B;
+	height: 100%;
+}
+
+.blogitem
+{
+	margin:10px auto;
+	width:60%;
+	height:600px;
+	background-color:bisque;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+.blogone{
+	width:70%;
+	height:auto;
+	position: absolute;
+	left: 15%;
+	top: 15%;
+}
+
+.datepub{
+	position: absolute;
+	top: 90%;
+	left:3%;
+	color: navy;
+	font-family:Verdana;
+	font-size: 15px;
+}
+.blogpage h5, h4{
+	text-align: center;
+	color: black;
+	margin-top: 2%;
+	font-family:Trebuchet;
+	font-size: 20px;
+}
+.mylike{
+	display:none;
+}
+
+.bg-custom{
+	background-color: #243763;
+}
+
+
+.navbar-nav .nav-link{
+	color: white !important;
+}
+
+.container-fluid .navbar-brand{
+	color:white;
+}
+
+header{
+	background-color:#FF6E31;
+	height:70px;
+	text-align:center;
+	padding:20px;
+	
+}
+
+.homepage{
+	width:100%;
+	background-color:#FFEBB7;
+	position:absolute;
+	top:126px;
+	bottom:80px;
+}
+
+.homepage h1{
+	position:absolute;
+	top:40%;
+	right:40%;
+	font-family:cursive;
+	font-size:35px;
+	display:inline-block;
+	color:#00435b;
+}
+.index-footer
+{
+	background:black;
+	text-align:center;	
+	padding:15px;
+	color:#DFCAA0;
+	width:100%;
+	height: 80px;
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+}
+
+/* .showallblogs .index-footer{
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+} */
+
+.loginpage{
+	width: 100%;
+	position: absolute;
+	top:120px;
+	bottom: 80px;
+	background-color: #FFEBB7;
+}
+
+.logindiv{
+	position: absolute;
+	left: 30%;
+	top:10%;
+	width: 35%;
+	height: 400px;
+	background-color: #92A1B3;
+}
+
+.emailinput{
+	position: absolute;
+	top: 20%;
+	left:10%;
+	width: 80%;
+	height:90px;
+}
+
+label{
+	display: inline;
+}
+
+
+.emailinput label{
+	display: inline;
+	position: absolute;
+	top: 38%;
+	margin-left: 12%;
+}
+
+.emailinput input{
+    padding: 8px 0px;
+    margin-left: 31%;
+}
+.passwordinput{
+	position: absolute;
+	top: 45%;
+	left:10%;
+	width: 80%;
+	height:70px;
+}
+
+.passwordinput .mypass{
+	width: 55%;
+  padding: 8px 0;
+  margin-top: 8px;
+  margin-left:32%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+  position: absolute;
+}
+
+.passwordinput label{
+	display: inline;
+	position: absolute;
+	top: 25%;
+	margin-left:9%;
+}
+
+.passwordinput .eye
+{
+	display: inline;
+	position: absolute;
+	left: 90%;
+	top:40%;
+}
+
+.mylogin-button{
+	position: absolute;
+	top:45%;
+	left:44%;
+    padding: 12px;
+    width: 10%;
+}
+
+.signup
+{
+	position: absolute;
+	width: 50%;
+	height: 380px;
+	top: 10%;
+	left: 25%;
+	background-color: red;
+}
+
+.signup h3{
+	text-align: center;
+	margin-top: 0%;
+}
+
+.signup input{
+	width: 70%;
+	margin-left: 24%;
+}
+.firstname{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	left: 15%;
+	top:20%;
+}
+
+.firstname label{
+	position: absolute;
+	top: 5%;
+}
+
+.lastName{
+
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	left: 15%;
+	top:30%;
+}
+.lastName label{
+	position: absolute;
+	top: 1px;
+}
+.email{
+
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	left: 15%;
+	top:40%;
+}
+
+.email label{
+	position: absolute;
+	top: 1%;
+}
+
+.password{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	left: 15%;
+	top:50%;
+}
+
+.password .signpass{
+	position: absolute;
+    left:0px ;
+}
+
+.reg{
+	position: absolute;
+	left:42%;
+	top:65%;
+    padding: 5px;
+    width: 15%;
+}
+
+.successpage
+{
+	width:100%;
+	position: absolute;
+	top:126px;
+	bottom:70px;
+	background-color:#FFEBB7;
+}
+
+.successpage h2{
+	text-align: center;
+	color: #243763;
+	margin-top: 5%;
+	font-family: cursive;
+}
+
+.successpage button{
+margin-left:45%;
+padding: 10px 10px;
+font-family: Georgia;
+margin-top: 10%;
+}
+
+.routers
+{
+	position: absolute;
+	height: 20px;
+	top:90%;
+	margin-left: 35%;
+	background-color: red;
+}
+
+.welcome
+{
+	background-color: #FFEBB7;
+	position: absolute;
+	top:126px;
+	bottom: 80px;
+	width: 100%;
+}
+
+.welcome h2{
+	font-family: cursive;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.innerwelcome{
+	position: relative;
+	top: 15%;
+	left: 25%;
+	width: 50%;
+	height: 200px;
+}
+
+.innerwelcome div{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 8%;
+}
+
+.innerwelcome button{
+	padding: 20px 20px;
+	font-family:'Lucida Sans';
+	background-color: #FF6E31;
+}
+
+.newitems{
+	position:absolute;
+	width: 100%;
+	top: 126px;
+	bottom: 80px;
+	background-color: #FFEBB7;
+}
+
+.myitems{
+	position: relative;
+	width: 50%;
+	height: 400px;
+	left: 25%;
+	background-color: #FF6E31;
+	top:10%;
+}
+
+.myitems h5{
+	padding: 10px 20px;
+	text-align: center;
+	color: #243763;
+	font-family:'Trattatello' ;
+}
+
+.myitems h4{
+	padding: 0 20px;
+	text-align: center;
+	color: #243763;
+	font-family:'Brush Script MT ' ;
+}
+
+.mywelcome{
+	position: relative;
+	top: 15%;
+	left: 40%;
+	width: 25%;
+	height: 100px;
+}
+
+.mywelcome div{
+	display: inline-block;
+	margin-top: 15px;
+	/* margin-left: 15%; */
+}
+
+.mywelcome button{
+	padding: 20px 20px;
+	font-family:'Lucida Sans';
+	background-color: #FF6E31;
+}
+
+.welcome h1{
+	font-family: cursive;
+	margin-top: 3%;
+	color: #243763;
+}
+
+.myitems div{
+	position: relative;
+	width: 30%;
+	height: 200px;
+	font-family: Verdana;
+	left: 36%;
+	top:5%;
+}
+
+.blogitemnav{
+	width: 30%;
+	height: 50px;
+	position: absolute;
+	top: 84%;
+	left: 40%;
+}
+.blogitemnav button{
+	padding:10px;
+	margin-left: 10px;
+	font-family: Franklin;
+	
+}
+.blogitemnav a{
+	text-decoration: none;
+}
+
+.blogone p{
+	font-family: cursive;
+	padding: 5px;
+	font-size: 18px;
+	margin: 10px;
+}
+
+.forlike{
+	width: 70px;
+	height: 40px;
+	position: absolute;
+	top: 90%;
+	left:90%;
+}
+
+h2{
+	font-family:Impact;
+}
+
+h3{
+    font-family: cursive;
+    text-align: center;
+    padding: 30px;
+}
+
+.signup .mysignup{
+    margin-top: 0%;
+}

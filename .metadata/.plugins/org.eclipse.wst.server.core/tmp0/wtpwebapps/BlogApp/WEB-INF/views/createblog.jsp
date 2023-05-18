@@ -18,7 +18,6 @@
 </header>
 <h2 class="createpage">Write something cool to share with others</h2>
 <h2 class="success">You have successfully created a blog</h2>
-<div class="blogdiv">
 <div class="blogdetails">
 <form:form class ="create" action="getblog" method="post" modelAttribute="blog">
  	<form:label path="blogTitle" class="titlelabel">Blog Title:</form:label>
@@ -30,7 +29,6 @@
            
 <input type="submit" value="Share your thoughts" class ="createblogbutton">
 </form:form>
-</div>
 </div>
 <a href="${pageContext.request.contextPath }/logout">Logout</a>
 

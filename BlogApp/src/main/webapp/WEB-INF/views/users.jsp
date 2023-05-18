@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<link href="/BlogApp/resources/css/myfile.css?v=2"
+<link href="/BlogApp/resources/css/myfile.css?v=6"
     rel="stylesheet">
 </head>
 <body>
@@ -23,7 +23,7 @@
 
 			<div class="signup">
 			
-			<h3>Please Enter Details</h3>
+			<h3>Please your Details to Register</h3>
 			
 			<div class="sign firstname">
             <form:label path="FirstName">First name:</form:label>
