@@ -12,7 +12,7 @@
     rel="stylesheet">
 </head>
 <body>
-        <mytags:navbar/>
+        <mytags:navbar2/>
 <header>
 <h2>Changing Lives By Sharing Stories</h2>
 </header>

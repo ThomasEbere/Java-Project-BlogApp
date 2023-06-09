@@ -13,7 +13,7 @@
 <body>
 
 <body>
-        <mytags:navbar/>
+        <mytags:navbar2/>
 <header>
 <h2>We hope you find something that delight you</h2>
 </header>

@@ -1,0 +1,13 @@
+Ensure that firstname is set upon login and create blogs
+Work on the Home page view and the readblog view
+####################UpNext################
+continue from create blog view
+Create view for creating comment
+Create table for comment with comment content and comment ID
+
+Todos
+Fix Git Issue
+change Login to logout once logged in 
+Remove sign up from navbar once logged in 
+Comment
+Check if user already has a blog and update message on sucesspage

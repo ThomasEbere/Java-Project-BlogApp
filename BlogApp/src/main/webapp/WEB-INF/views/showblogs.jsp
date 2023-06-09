@@ -12,7 +12,7 @@
 <link href="resources/css/myfile.css?v=4"
     rel="stylesheet">
 <body >
-        <mytags:navbar/>
+        <mytags:navbar2/>
 <c:forEach var ="blog" items="${blogs}">
 
 </c:forEach>

@@ -14,7 +14,7 @@
     rel="stylesheet">
 </head>
 <body class="createblog" >
-        <mytags:navbar/>
+        <mytags:navbar2/>
 
 <header>
 <h2>We hope you find something that delights you</h2>

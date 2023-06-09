@@ -36,18 +36,10 @@ public class NewBlogController {
 	@RequestMapping("/createblog")
 	public String createblog(@ModelAttribute("blog") BlogClass blog, BindingResult result, HttpSession session,RedirectAttributes redirectAttributes,String createBlog,Model model) throws ClassNotFoundException, SQLException
 	{
-//		System.out.println("Getting here");
-//		System.out.println(session.getAttribute("userid")!=null);
-//		int userd=0;
-//		userd=(int)session.getAttribute("userid");
-//		System.out.println("This is the userid"+userd);
-//		System.out.println(dataConnection.getFirstName(userd));
-		System.out.println("Got here");
 		if(session.getAttribute("userid")!=null) {
 			int title= (int) session.getAttribute("userid");
-			System.out.println(title);
-			System.out.println(dataConnection.getFirstName(title));
-			model.addAttribute("firstname", title);
+			String firstName=dataConnection.getFirstName(title);
+			model.addAttribute("firstname", firstName);
 			return "createblog";
 		}
 		

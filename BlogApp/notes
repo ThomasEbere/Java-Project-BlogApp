@@ -11,3 +11,18 @@ change Login to logout once logged in
 Remove sign up from navbar once logged in 
 Comment
 Check if user already has a blog and update message on sucesspage
+
+
+comment Feature
+User has to be logged in to write comment
+Show comment count
+
+Create comment Table
+Create comment view
+Comment table should have the following columns:
+Blog ID
+comment content
+comment Timestamp
+Update blog details view
+
+start from HTMLSKELEton to design blog details to accommodate comments
